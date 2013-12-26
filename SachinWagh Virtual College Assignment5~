@@ -1,0 +1,7 @@
+Singleton Design Pattern: Singleton can be applicable to College class and Library class. Because there is going to be only one instance of college. Every other class will access the same instance via global point of access i.e. public getInstance method.
+
+Composite Design Pattern: Composite design pattern can be applicable to college class and all its related classes. Because students, departments, staff, library all these classes compose the college.
+
+Observer design pattern: Observer can be applicable Subjects class. Because suppose there is change in subject names or other subject is allocated to tha perticular deparment then all students and staff should get notified about the change in state of subject class. Subject class is observable and Student class & Lecturer class are observers. notify() method of all obeservers can be invoked from Obervable.
+
+Factory Method Pattern: Factory pattern can be applied to Exam class because when conductExam() method will be invoked, then it will conduct apppriate exam from based on it's type which is passed.
